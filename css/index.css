@@ -1,0 +1,100 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	list-style: none;
+}
+#myCanvas{
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+
+}
+.show
+{    
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+.show   span
+{   margin: 5px 5px 5px 5px;
+	border: 3px solid #f2f2f2;
+	background: #ebebeb;
+	display: block;
+	width: 50px;
+	height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+
+}
+#color
+{   display: block;
+	position: fixed;
+	top: 55px;
+	left: 10px;
+}
+#color ul li
+{
+	width:30px;
+	height:30px;
+	border:3px solid #fff;
+	list-style: none;
+}
+#color .black
+{  
+	background: #2f4f4f;
+}
+#color  .red
+{
+	background: #ff7256;
+}
+#color  .green
+{
+	background: #98fb98;
+}
+#color  .purple
+{
+	background: #b03060;
+}
+#color  .blue
+{
+	background: #aeeeee;
+}
+#line{
+    position: fixed;
+    display: block;
+    right: 10px;
+    top:45px;
+    
+}
+#line li{
+   
+}
+#line .thin{
+    width: 30px;
+    height: 0;
+    border-top: 1px solid black;
+    margin: 20px 0;
+
+
+}
+#line .thick{
+    width: 30px;
+    height: 0;
+    border-top: 4px solid black;
+     margin: 20px 0;
+}
+#line .heavy
+{
+	width: 30px;
+    height: 0; 
+     margin: 20px 0;
+    border-top: 8px solid black;
+}
+
